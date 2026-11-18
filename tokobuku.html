@@ -1,0 +1,127 @@
+<!-- <!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Buku Kita</title>
+    <link rel="stylesheet" href="css/toko.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Toko Buku Kita</h1>
+      <nav>
+        <a href="#">Beranda</a> <a href="#">Katalog</a> <a href="#">Kontak</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Selamat datang di Toko Buku Kita</h2>
+      <p>
+        Kami menyediakan berbagai koleksi buku dari fiksi, non-fiksi, hingga
+        komik. Temukan bacaan favoritimu dengan harga terjangkau dan kualitas
+        terbaik.
+      </p>
+      <div class="kategori">
+        <h3>Kategori buku</h3>
+        <ul>
+          <li>Fiksi</li>
+          <li>Non-fiksi</li>
+          <li>Komik</li>
+        </ul>
+      </div>
+      <div class="buku-pilihan">
+        <h3>Buku pilihan</h3>
+        <div class="grid-buku">
+          <div class="card">
+            <h4>Laut Bercerita</h4>
+            <p>Leila S. Chudori - Fiksi</p>
+            <button class="btn-beli">Beli</button>
+          </div>
+          <div class="card">
+            <h4>Sapiens</h4>
+            <p>Yuval Noah Harari - Non-fiksi</p>
+            <button class="btn-beli">Beli</button>
+          </div>
+          <div class="card">
+            <h4>Si Juki</h4>
+            <p>Faza Meonk - Komik</p>
+            <button class="btn-beli">Beli</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>© 2026 Toko Buku Kita. Semua hak cipta dilindungi.</footer>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Buku Kita - Temukan Bacaan Favoritmu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/toko.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-book-open"></i>
+            <h1>Toko Buku <span>Kita</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#katalog">Katalog</a></li>
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="badge">0</span>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Temukan Inspirasi Tanpa Batas</h2>
+            <p>Jelajahi ribuan koleksi buku terbaik untuk menemani setiap langkah perjalanan belajarmu hari ini.</p>
+            <div class="hero-btn-group">
+                <a href="#katalog" class="btn btn-primary">Lihat Katalog</a>
+                <a href="#tentang" class="btn btn-secondary">Pelajari Lebih Lanjut</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="katalog" class="katalog">
+        <div class="section-title">
+            <h2>Katalog Buku Terpopuler</h2>
+            <p>Pilihan terbaik yang paling banyak dibaca bulan ini</p>
+        </div>
+        
+        <div class="buku-container">
+            <div class="card">
+                <div class="card-tag">Best Seller</div>
+                <div class="buku-cover">
+                    <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400" alt="Cover Petualangan Kata">
+                </div>
+                <div class="card-body">
+                    <h3>Petualangan Kata</h3>
+                    <p class="penulis">Penulis: Abdul mugis</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span>(4.5)</span>
+                    </div>
+                    <p class="harga">Rp 75.000</p>
+                    <button class="btn-beli"><i class="fa-solid fa-cart-plus"></i> Beli Sekarang</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="buku-cover">
+                    <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400"

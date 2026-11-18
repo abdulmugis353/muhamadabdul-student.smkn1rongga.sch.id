@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Registration Form</h1>
+
+        <form>
+            <div class="form">
+                <label>Roll no. :</label>
+                <div class="input-container">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="form">
+                <label>Student name :</label>
+                <div class="input-container">
+                    <input type="text" class="name-input" placeholder="First Name">
+                    <span>-</span>
+                    <input type="text" class="name-input" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="form">
+                <label>Father's name :</label>
+                <div class="input-container">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="form">
+                <label>Date of birth :</label>
+                <div class="input-container">
+                    <input type="text" class="dob-input" placeholder="Day">
+                    <span>-</span>
+                    <input type="text" class="dob-input" placeholder="Month">
+                    <span>-</span>
+                    <input type="text" class="dob-year" placeholder="Year">
+                    <span class="dob-format">(DD-MM-YYYY)</span>
+                </div>
+            </div>
+            <div class="form">
+                <label>Mobile no. :</label>
+                <div class="input-container">
+                    <input type="text" value="+91" class="country-code">
+                    <span>-</span>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="form">
+                <label>Email id :</label>
+                <div class="input-container">
+                    <input type="email">
+                </div>
+            </div>
+            <div class="form">
+                <label>Password :</label>
+                <div class="input-container">
+                    <input type="password">
+                </div>
+            </div>
+            <div class="form">
+                <label>Gender :</label>
+                <div class="radio-group">
+                    <label class="radio-item"><input type="radio" name="gender" value="male"> Male</label>
+                    <label class="radio-item"><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+            </div>
+            <div class="form">
+                <label>Department :</label>
+                <div class="checkbox">
+                    <label class="checkbox-item"><input type="checkbox" name="dept" value="cse"> CSE</label>
+                    <label class="checkbox-item"><input type="checkbox" name="dept" value="it"> IT</label>
+                    <label class="checkbox-item"><input type="checkbox" name="dept" value="ece"> ECE</label>
+                    <label class="checkbox-item"><input type="checkbox" name="dept" value="civil"> Civil</label>
+                    <label class="checkbox-item"><input type="checkbox" name="dept" value="mech"> Mech</label>
+                </div>
+            </div>
+            <div class="form">
+                <label>Course :</label>
+                <div class="input-container">
+                    <select>
+                        <option value="">------------------------- Select Current Course's -------------------------
+                        </option>
+                        <option value="btech">B.Tech</option>
+                        <option value="mtech">M.Tech</option>
+                        <option value="bca">BCA</option>
+                        <option value="mca">MCA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form">
+                <label>Student photo :</label>
+                <div class="input-container">
+                    <input type="file">
+                </div>
+            </div>
+            <div class="form">
+                <label>City :</label>
+                <div class="input-container">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="form">
+                <label>Address :</label>
+                <div class="input-container">
+                    <textarea></textarea>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

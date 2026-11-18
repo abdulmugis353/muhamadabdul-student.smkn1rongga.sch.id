@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f90e;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* --- Navbar (Ditengahkan & Teks Jelas/Besar) --- */
+.navbar {
+  background: white;
+  padding: 25px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.navbar h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #9c8c8c;
+  letter-spacing: 1px;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: #444;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  color: #090a0a;
+}
+
+/* --- Hero Section --- */
+.hero {
+  margin: 40px 0;
+}
+
+.hero-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.hero-header h3 {
+  font-size: 26px;
+  color: #222;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hero-header p {
+  color: #131111;
+  font-size: 16px;
+}
+
+/* --- Articles Wrapper (Sejajar) --- */
+.articles-wrapper {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* --- Kartu (Simpel & Border Radius, Tidak Bergerak) --- */
+.articles-wrapper article {
+  background: #e7e3e3;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px #e7e3e3;
+  width: 330px;
+}
+
+.articles-wrapper article img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+/* --- Teks di dalam kartu (Proporsional & Tidak Kecil) --- */
+.articles-wrapper article h5,
+.articles-wrapper article h4 {
+  font-size: 14px;
+  color: #8f978d69;
+  margin: 20px 20px 8px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.articles-wrapper article h3 {
+  font-size: 20px;
+  color: #3d3030;
+  margin: 0 20px 20px 20px;
+  font-weight: bold;
+}
